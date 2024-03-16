@@ -1,0 +1,241 @@
+:root{
+    --bg:white;
+    --bg2:#333;
+    --main:#EE6F58;
+    --sec:#01C0D2;
+    --txt:black;
+    --fm:"Gluten", cursive;
+}
+
+nav{
+    z-index: 99;
+    background-color: var(--bg);
+    height: 20vh;
+    position: sticky;
+    top: 0;
+}
+
+.sec1{
+    z-index: 89;
+    height: 80vh;
+    background: transparent;
+}
+
+.sec2{
+    height: 300vh;
+    background: var(--bg2);
+}
+
+body{
+    height: 400vh;
+}
+.body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 400vh;
+    background: linear-gradient(35deg,transparent 40%,var(--main)40%,var(--main)50%,var(--sec)50%,var(--sec)60%,transparent 60%);
+}
+
+.video-header{
+    z-index: 80;
+    width:100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.call-to-action{
+    z-index: 91;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.418),transparent);
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-action{
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: var(--bg) 2px solid;
+    padding: 10px 20px;
+    color: var(--bg);
+    font-family: var(--fm);
+    margin-bottom: 100px;
+    transition: 0.2s;
+}
+
+.btn-action:hover,.btn-action:focus,.btn-action:active{
+    background: var(--bg)!important;
+    color: var(--txt)!important;
+    border: solid 2px var(--bg)!important;
+    transform: scale(1.2);
+}
+
+.h-action{
+    font-size: 80px;
+    color: var(--bg);
+    font-family: var(--fm);
+}
+
+.logo{
+    width: 150px;
+}
+
+.link-nav{
+    color: var(--txt);
+    text-decoration-color: var(--bg2);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2.5px;
+    font-size: 20px;
+    font-family: var(--fm);
+}
+
+.card-sec2{
+    overflow: hidden;
+    z-index: 98;
+    background-color: var(--bg);
+    border-radius: 10px;
+    width: 70%;
+    height: 75%;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.575);
+}
+
+.profilo{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: 0.3s;
+}
+.profilo:hover{
+    transform: scale(1.1);
+}
+
+.txt-profilo{
+    width: 50%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.h-profilo{
+    color: var(--txt);
+    font-family: var(--fm);
+    text-align: center;
+}
+
+.p-profilo{
+    color: var(--txt);
+    font-family: var(--fm);
+    text-align: center;
+}
+
+.btn-profilo{
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: var(--txt) 2px solid;
+    padding: 10px 20px;
+    color: var(--txt);
+    font-family: var(--fm);
+    margin-bottom: 100px;
+    transition: 0.2s;
+}
+
+.btn-profilo:hover,.btn-profilo:focus,.btn-profilo:active{
+    background: var(--txt)!important;
+    color: var(--bg)!important;
+    border: solid 2px var(--txt)!important;
+    transform: scale(1.2);
+}
+
+.servizi-pan{
+    z-index: 98;
+    margin-top: 80px;
+    border-radius: 20px;
+    background: var(--bg);
+}
+
+.servizi-top{
+    width: 100%;
+    height: 50%;
+}
+
+
+.servizi-top1{
+    width: 50%;
+    height: 50%;
+}
+
+.servizio-img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.servizio-txt{
+    width: 50%;
+    height: 100%;
+}
+
+.carousel{
+    z-index: 98;
+    width: 100%;
+    height: 100%;
+}
+
+.img-car{
+    height: 450px;
+    width: 500px!important;
+    object-fit: cover;
+}
+
+footer{
+    background-color: var(--bg);
+    height: 75vh;
+}
+
+.link-nav-social{
+    font-size: 35px;
+    color: var(--txt);
+}
+
+.h-form{
+    color: var(--bg);
+    font-family: var(--fm);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form{
+    background: var(--bg2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+}
+
+.form-txt{
+    font-family: var(--fm);
+    color: var(--bg);
+}
+
+.form-txt-input{
+    font-family: var(--fm);
+    color: var(--bg);
+    background: transparent;
+    border: none;
+    border-bottom: var(--bg) solid 2px;
+    outline: none;
+}
+
+.textarea{
+    margin-top: 20px;
+    height: 100px;
+    color: var(--bg);
+    font-family: var(--fm);
+    background: transparent;
+    border: none;
+    border-bottom: var(--bg) solid 2px;
+    outline: none;
+}
